@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+package ejercicioGatoPkg;
+
+/**
+ * 
+ */
+public class Ejerciciomigato {
+
+	/**
+	 * 
+	 */
+	public Ejerciciomigato() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Gato miGato=new Gato();
+		miGato.maullar();
+		miGato.dormir(2);
+		miGato.correr("Tamasagra");
+		miGato.comer("carne"); 
+
+	}
+
+}

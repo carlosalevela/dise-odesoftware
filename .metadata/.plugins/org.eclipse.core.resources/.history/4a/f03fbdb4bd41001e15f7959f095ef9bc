@@ -1,0 +1,21 @@
+/**
+ * este es el programa principal
+ */
+package aplicacioncirculo;
+
+public class Program {
+
+	public Program() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		circulo miCirculo=new circulo();
+		miCirculo.setRadio(20);
+		System.out.println(miCirculo.getArea());
+		System.out.println(miCirculo);
+
+	}
+
+}

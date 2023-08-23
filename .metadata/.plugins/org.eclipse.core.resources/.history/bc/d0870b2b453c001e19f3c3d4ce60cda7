@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+package ejercicioGatoPkg;
+
+/**
+ * 
+ */
+public class Ejerciciomigato {
+
+	/**
+	 * 
+	 */
+	public Ejerciciomigato() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Gato miGato=new Gato();
+		miGato.setNombre(Tomas);
+		
+		miGato.maullar();
+		miGato.dormir(2);
+		miGato.correr("Tamasagra");
+		miGato.comer("carne"); 
+		
+		System.out.println("el nombre de mi gato es "+ miGato.getNombre());
+
+	}
+
+}
